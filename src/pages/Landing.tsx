@@ -237,18 +237,22 @@ const Landing: React.FC = () => {
                 
                 {/* Step 2 */}
                 <div className="relative mb-8">
-                  <div className="flex flex-col items-center lg:flex-row-reverse">
-                    <div className="flex items-center justify-center order-first w-12 h-12 mx-auto mb-4 text-white bg-blue-500 rounded-full lg:order-first lg:mr-10 lg:mb-0">
-                      <span>2</span>
+                  <div className="flex flex-col items-center lg:flex-row">
+                    <div
+                        className="flex items-center justify-center order-first w-12 h-12 mx-auto mb-4 text-white bg-blue-500 rounded-full lg:order-last lg:ml-10 lg:mb-0">
+                      <span className="text-lg font-bold">2</span>
                     </div>
                     <div className="w-full p-6 bg-white rounded-lg shadow-sm">
                       <h3 className="mb-3 text-xl font-medium">Classify Materials</h3>
                       <p className="text-gray-600">
-                        Review and classify your products by material type. Our system provides suggestions and makes it easy to edit in bulk.
+                        Review and classify your products by material type. Our system provides suggestions and makes it
+                        easy to edit in bulk.
                       </p>
                       <div className="flex items-center mt-4 text-blue-600">
                         <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2H4a2 2 0 00-2 2v10a2 2 0 002 2z" clipRule="evenodd" />
+                          <path fillRule="evenodd"
+                                d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2H4a2 2 0 00-2 2v10a2 2 0 002 2z"
+                                clipRule="evenodd"/>
                         </svg>
                         <span className="text-sm">Material classification table</span>
                       </div>
@@ -259,7 +263,8 @@ const Landing: React.FC = () => {
                 {/* Step 3 */}
                 <div className="relative">
                   <div className="flex flex-col items-center lg:flex-row">
-                    <div className="flex items-center justify-center order-first w-12 h-12 mx-auto mb-4 text-white bg-blue-500 rounded-full lg:order-last lg:ml-10 lg:mb-0">
+                    <div
+                        className="flex items-center justify-center order-first w-12 h-12 mx-auto mb-4 text-white bg-blue-500 rounded-full lg:order-last lg:ml-10 lg:mb-0">
                       <span>3</span>
                     </div>
                     <div className="w-full p-6 bg-white rounded-lg shadow-sm">
